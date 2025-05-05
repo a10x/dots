@@ -80,6 +80,14 @@ return {
 				type = "formatter",
 				mason_mapping = "stylua",
 			},
+			eslint = {
+				type = "formatter",
+				mason_mapping = "eslint_d",
+			},
+			prettier = {
+				type = "formatter",
+				mason_mapping = "prettierd",
+			},
 		}
 
 		require("mason-registry").refresh(function()
